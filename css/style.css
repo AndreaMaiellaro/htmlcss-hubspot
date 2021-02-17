@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -22,6 +26,36 @@ img {
 
 .col {
     float: left;
+}
+/*main*/
+
+header .test {
+    background-color: lightskyblue;
+}
+
+.menu .login {
+    color: coral;
+    border: 1px solid coral;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button {
+    border-radius: 5px;
+    background-color: coral;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu-left {
+    width: 20%;
+}
+
+.menu-right {
+    width: 20%;
+    margin-left: 50%;
 }
 
 hr {
@@ -50,6 +84,8 @@ nav {
 .menu li a {
     text-decoration: none;
     color: lightslategrey;
+    margin-right: 15px;
+    display: inline-block;
 }
 
 main {
@@ -57,6 +93,7 @@ main {
 }
 
 .row-one {
+    padding: 30px;
     margin: auto;
     color: rgb(11, 44, 71);
     text-align: center;
@@ -64,6 +101,13 @@ main {
 
 h2 {
     font-size: 35px;
+    margin-bottom: 25px;
+}
+
+h4 {
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
 }
 
 .row-one img {

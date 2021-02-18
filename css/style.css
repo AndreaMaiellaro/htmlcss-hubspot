@@ -143,6 +143,10 @@ main {
     background-color: #d1d3d4;
 }
 
+main .container {
+    margin-bottom: 50px;
+}
+
 .row-one {
     padding: 30px;
     margin: auto;
@@ -178,6 +182,7 @@ h4 {
 
 .fa-check-circle {
     color: coral;
+    margin-right: 15px;
 }
 
 .row-three .col-left, .col-center, .col-right {
@@ -194,9 +199,37 @@ h4 {
 
 .row-three .text {
     text-align: center;
-    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.row-three, .menu li {
-    display: inline;
+.offers {
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.offers li {
+    display: block;
+}
+
+.button-learn-more {
+    padding: 20px 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+
+
+
+
+
+/*parte con il gradiente*/
+
+.gradient {
+    background-color: lightseagreen;
 }

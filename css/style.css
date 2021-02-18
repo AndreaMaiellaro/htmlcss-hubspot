@@ -38,6 +38,7 @@ header .test {
     border: 1px solid coral;
     padding: 10px 20px;
     border-radius: 5px;
+    margin-left: 20px;
 }
 
 .button {
@@ -54,8 +55,9 @@ header .test {
 }
 
 .menu-right {
-    width: 20%;
-    margin-left: 50%;
+    width: 100%;
+    text-align: right;
+    line-height: 20px;
 }
 
 hr {
@@ -79,6 +81,10 @@ nav {
 
 .menu li {
     display: inline-block;
+}
+
+.menu .menu-right {
+    text-align: right;
 }
 
 .menu li a {

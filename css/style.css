@@ -63,12 +63,12 @@ header .test {
 
 .menu-left {
     width: 20%;
+    line-height: 40px;
 }
 
 .menu-right {
-    width: 100%;
+    width: 80%;
     text-align: right;
-    line-height: 20px;
 }
 
 hr {
@@ -101,7 +101,7 @@ nav {
 .menu li a {
     text-decoration: none;
     color: lightslategrey;
-    margin-right: 15px;
+    margin-right: 20px;
     display: inline-block;
 }
 
@@ -171,12 +171,6 @@ h4 {
 }
 
 .row-two {
-    width: 100%;
-    background-color: white;
-}
-
-.row-two .col-left{
-    padding-left: 10%;
     background-color: white;
 }
 
@@ -246,4 +240,47 @@ hr {
 .gradient {
     background-color: lightseagreen;
     height: 600px;
+}
+
+.gradient h2.text {
+    padding: 30px 0 0 0;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: center;
+    color: white;
+}
+
+.gradient p.text {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: white;
+}
+
+.colonne {
+    width: 100%;
+    text-align: center;
+}
+
+.gradient hr {
+    width: 100%;
+    color: white;
+}
+
+.gradient .img-object-fit {
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+
+/*aziende*/
+
+.aziende {
+    background-color: white;
+}
+
+/*footer*/
+
+footer {
+    background-color: #415a77;
 }

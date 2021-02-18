@@ -18,6 +18,12 @@ img {
     display: block;
 }
 
+.img-object-fit {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -31,6 +37,11 @@ img {
 
 header .test {
     background-color: lightskyblue;
+}
+
+.english {
+    border-right: grey solid 1px;
+    margin-right: 10px;
 }
 
 .menu .login {
@@ -96,10 +107,10 @@ nav {
 
 .banner {
     background-image: url("../img/jumbotron.png");
-    height: 600px;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 100% 67%;
+    background-position: 100% 100%;
 }
 
 .teaser {
@@ -153,4 +164,39 @@ h4 {
 .row-one img {
     width: 15%;
     margin: auto;
+}
+
+.row-two {
+    width: 100%;
+    background-color: white;
+}
+
+.row-two .col-left{
+    padding-left: 10%;
+    background-color: white;
+}
+
+.fa-check-circle {
+    color: coral;
+}
+
+.row-three .col-left, .col-center, .col-right {
+    width: 30%;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 5%;
+}
+
+.row-three .col-center {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.row-three .text {
+    text-align: center;
+    margin: auto;
+}
+
+.row-three .menu {
+    
 }

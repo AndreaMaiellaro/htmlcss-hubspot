@@ -197,6 +197,6 @@ h4 {
     margin: auto;
 }
 
-.row-three .menu {
-    
+.row-three, .menu li {
+    display: inline;
 }

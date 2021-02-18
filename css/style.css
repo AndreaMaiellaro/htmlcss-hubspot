@@ -170,8 +170,19 @@ h4 {
     margin: auto;
 }
 
-.row-two {
+.riga-due {
     background-color: white;
+    border-radius: 5px;
+}
+
+.riga-due .col-left {
+    width: 30%;
+}
+
+.col-midright {
+    width: 70%;
+    text-align: left;
+    padding: 5% 0 5% 0;
 }
 
 .fa-check-circle {
@@ -239,7 +250,8 @@ hr {
 
 .gradient {
     background-color: lightseagreen;
-    height: 600px;
+    height: 700px;
+    background-image: linear-gradient(45deg, #3480a5, transparent);
 }
 
 .gradient h2.text {
@@ -258,19 +270,31 @@ hr {
 }
 
 .colonne {
-    width: 100%;
     text-align: center;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
 }
 
 .gradient hr {
     width: 100%;
     color: white;
+    margin-top: 30px;
 }
 
 .gradient .img-object-fit {
     margin: 0 auto;
     width: 50px;
     height: 50px;
+}
+
+.col-uno, .col-due, .col-tre {
+    border-right: white solid 1px;
+}
+
+.colonne h3 {
+    font-size: 40px;
+    color: white;
 }
 
 /*aziende*/
@@ -281,6 +305,6 @@ hr {
 
 /*footer*/
 
-footer {
+.bg-footer {
     background-color: #415a77;
 }

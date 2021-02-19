@@ -143,9 +143,7 @@ main {
     background-color: #d1d3d4;
 }
 
-main .container {
-    margin-bottom: 50px;
-}
+
 
 .row-one {
     padding: 30px;
@@ -250,7 +248,7 @@ hr {
 
 .gradient {
     background-color: lightseagreen;
-    height: 700px;
+    margin-top: 50px;
     background-image: linear-gradient(45deg, #3480a5, transparent);
 }
 
@@ -301,10 +299,61 @@ hr {
 
 .aziende {
     background-color: white;
+    height: 500px;
 }
 
 /*footer*/
 
-.bg-footer {
+footer {
     background-color: #415a77;
+    height: 500px;
+}
+
+footer .colonne-ft {
+    width: 100%;
+}
+
+.col-ft-uno, .col-ft-tre {
+    width: 20%;
+    margin-right: 6.6%;
+}
+
+.col-ft-due {
+    margin-right: 6.6%;
+    width: 20%;
+}
+
+.col-ft-quattro {
+    width: 20%;
+}
+
+.tools {
+    list-style-type: none;
+    color: white;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.tools li {
+    margin-top: 15px;
+}
+
+.col-ft-quattro .button {
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #d1d3d4;
+    color: #415a77;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.socials {
+    width: 100%;
+    color:  #d1d3d4;
+    margin-top: 20px;
+}
+
+.socials i {
+    margin-right: 30px;
 }

@@ -175,12 +175,21 @@ h4 {
 
 .riga-due .col-left {
     width: 30%;
+    margin-top: 40px;
 }
 
 .col-midright {
     width: 70%;
     text-align: left;
     padding: 5% 0 5% 0;
+}
+
+.col-midright p {
+    width: 70%;
+}
+
+.col-midright h3 {
+    margin-bottom: 30px;
 }
 
 .fa-check-circle {

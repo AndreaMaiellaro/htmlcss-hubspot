@@ -329,7 +329,7 @@ footer .colonne-ft {
 
 .tools {
     list-style-type: none;
-    color: white;
+    color: #d1d3d4;
     margin-top: 30px;
     text-align: left;
 }
@@ -356,4 +356,12 @@ footer .colonne-ft {
 
 .socials i {
     margin-right: 30px;
+}
+
+.boh {
+    list-style-type: none;
+    width: 100%;
+    color:  #d1d3d4;
+    text-align: center;
+    display: inline;
 }

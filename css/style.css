@@ -20,8 +20,8 @@ img {
 
 .img-object-fit {
     margin: 0 auto;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 .clearfix::after {
@@ -268,10 +268,10 @@ hr {
 }
 
 .colonne {
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
-    padding: 10px;
-    width: 50%;
-    margin: auto;
+    width: 100%;
 }
 
 .gradient hr {
@@ -286,8 +286,19 @@ hr {
     height: 50px;
 }
 
+.col-uno, .col-due, .col-tre, .col-quattro {
+    width: 20%;
+    margin-bottom: 100px;
+}
+
 .col-uno, .col-due, .col-tre {
     border-right: white solid 1px;
+    margin-right: 5px;
+}
+
+.colonne hr {
+    width: 115%;
+    color: white;
 }
 
 .colonne h3 {
@@ -299,14 +310,34 @@ hr {
 
 .aziende {
     background-color: white;
-    height: 500px;
+}
+
+.aziende .img-object-fit {
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+}
+
+.col-left-az {
+    width: 20%;
+}
+
+.testo {
+    padding: 10%;
+    margin: auto;
+    text-align: left;
+}
+
+.col-right-az {
+    width: 75%;
+    padding: 5%;
+    text-align: right;
 }
 
 /*footer*/
 
 footer {
     background-color: #415a77;
-    height: 500px;
 }
 
 footer .colonne-ft {
@@ -328,8 +359,8 @@ footer .colonne-ft {
 }
 
 .tools {
+    color:  #d1d3d4;
     list-style-type: none;
-    color: #d1d3d4;
     margin-top: 30px;
     text-align: left;
 }
@@ -338,30 +369,58 @@ footer .colonne-ft {
     margin-top: 15px;
 }
 
+.tools li a {
+    text-decoration: none;
+    color:  #d1d3d4;
+}
+
 .col-ft-quattro .button {
     margin-top: 20px;
     border-radius: 5px;
     background-color: #d1d3d4;
-    color: #415a77;
     padding: 10px 20px;
     text-decoration: none;
     display: inline-block;
+}
+
+.col-ft-quattro .button a {
+    text-decoration: none;
+    color: #415a77;
 }
 
 .socials {
     width: 100%;
     color:  #d1d3d4;
     margin-top: 20px;
+    display: inline-block;
 }
 
 .socials i {
     margin-right: 30px;
 }
 
+.socials a {
+    text-decoration: none;
+    color:  #d1d3d4;
+    display: inline-block;
+}
+
 .boh {
     list-style-type: none;
+    margin-top: 80px;
     width: 100%;
-    color:  #d1d3d4;
     text-align: center;
-    display: inline;
+    border-bottom:  #d1d3d4 solid 1px;
+    border-width: 100%;
+}
+
+.boh li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.boh li a {
+    text-decoration: none;
+    color:  #d1d3d4;
 }

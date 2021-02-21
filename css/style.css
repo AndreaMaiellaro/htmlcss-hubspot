@@ -36,10 +36,6 @@ img {
 }
 /*header*/
 
-header .test {
-    background-color: lightskyblue;
-}
-
 .english {
     border-right: grey solid 1px;
     margin-right: 10px;
@@ -78,7 +74,7 @@ hr {
 }
 
 .logo {
-    width: 10%;
+    width: 20%;
 }
 
 nav {
@@ -332,6 +328,13 @@ hr {
     width: 20%;
 }
 
+.img-object-fit-woman {
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+    object-fit: contain;
+}
+
 .testo {
     padding: 10%;
     margin: auto;
@@ -436,13 +439,18 @@ footer .colonne-ft {
 }
 
 .col-left-ft {
-    width: 80%;
+    width: 20%;
     text-align: left;
+    display: inline-block;
+}
+
+.col-right-ft {
+    width: 80%;
+    text-align: right;
 }
 
 .legal {
-    width: 20%;
-    text-align: right;
+    width: 100%;
     color:  #d1d3d4;
     list-style-type: none;
     margin-top: 30px;
@@ -450,7 +458,6 @@ footer .colonne-ft {
 
 .legal li {
     margin-left: 15px;
-    display: inline-block;
 }
 
 .legal li a {
